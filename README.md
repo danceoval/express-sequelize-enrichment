@@ -48,7 +48,7 @@ Grade = (# of Model/Route completed + Specs passed / 10)
 
 ### Hints
 ```
-- first step - create a db in Postico
+- first step - npm init + create a db in Postico
 - second step - creating and deleting users 
 - third step - creating and deleting awards 
 - fourth step - adding and removing mentors for a user
