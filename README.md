@@ -46,9 +46,18 @@ Grade = (# of Model/Route completed + Specs passed / 10)
 + 10 points for every Extra Credit spec completed.
 ```
 
+### Hints
+```
+- first step - create a db in Postico
+- second step - creating and deleting users 
+- third step - creating and deleting awards 
+- fourth step - adding and removing mentors for a user
+- fifth step - focus on business rules
+
+```
 
 -[Video Overview](https://www.youtube.com/watch?v=9GCQIg6HWmM&feature=youtu.be)
 -[Sample Demo](https://acme-user-mentors.herokuapp.com/users)
 
 
-This assignment is Open book/Open notes. You may consulte any documentation/stackoverflow/class notes you need. 
+This assignment is Open book/Open notes. You may consulte any documentation/stackoverflow/class notes you need, as well as ask a fellow for help. 
