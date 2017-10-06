@@ -56,10 +56,9 @@ Grade = (# of Model/Route completed + Specs passed / 10)
 
 ```
 
-###[Video Overview](https://www.youtube.com/watch?v=9GCQIg6HWmM&feature=youtu.be)
+[Video Overview](https://www.youtube.com/watch?v=9GCQIg6HWmM&feature=youtu.be)
 
-
-###[Sample Demo](https://acme-user-mentors.herokuapp.com/users)
+[Sample Demo](https://acme-user-mentors.herokuapp.com/users)
 
 
 This assignment is Open book/Open notes. You may consulte any documentation/stackoverflow/class notes you need, as well as ask a fellow for help. 
