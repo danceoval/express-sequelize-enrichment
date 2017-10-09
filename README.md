@@ -2,7 +2,7 @@
 
 ## Goal
 
-You are the CTO of ACME Education Inc. Your job is to create an express-sequelize API for storing user data, their academic awards and their associated mentors.
+You are the CTO of ACME Education Inc. Your job is to create an app for storing user's data, their academic awards and their associated mentors.
 
 ## Specs
 
@@ -31,19 +31,40 @@ You are the CTO of ACME Education Inc. Your job is to create an express-sequeliz
 - DELETE /users/:userId/awards/:id
 ```
 
+### React Components
+```
+- UserList : a list of all users
+- AddUser : a form for adding a new user to the list/db
+- UserComponent : an individual user
+	- Each UserComponent must have:
+		- A list of awards (if any)
+		- A 'Remove Mentor' button, if the user has a mentor
+		- A 'Set Mentor' form, with a selection of all available users
+		- A 'Delete Award' button that removes an award on click
+		- A 'Delete User' button that removes the user on click
+```
+
+### Front-End 
+```
+- See the sample website for an idea of the front-end flow
+- The front-end for the app should be written in React (Redux, React-Router and any other additional libraries are Extra Credit)
+- Use axios for any AJAX requests for your API routes
+```
+
 
 ### Extra Credit
 
 ```
-- Front end for API (may be written however you want, Vanilla JS, Nunjucks, React, etc)
 - Tests for Models (Mocha/Chai)
 - Tests for Routes (Mocha/Chai + Supertest)
+- Responsive Design
+- Redux state management
 ```
 
 ### Assessment
 ```
-Grade = (# of Model/Route completed + Specs passed / 10)
-+ 10 points for every Extra Credit spec completed.
+Grade = 
+	Completed Models (2) + Completed Routes (7) + Front End Specs (8) / 17 + 10pts per Extra Credit
 ```
 
 ### Hints
@@ -52,7 +73,10 @@ Grade = (# of Model/Route completed + Specs passed / 10)
 - second step - creating and deleting users 
 - third step - creating and deleting awards 
 - fourth step - adding and removing mentors for a user
-- fifth step - focus on business rules
+- fifth step - Add front end in React
+- sixth step - add AJAX requests based on API routes and add to event listeners
+- seventh step - add extra business logic
+
 
 ```
 
