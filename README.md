@@ -4,6 +4,8 @@
 
 You are the CTO of ACME Education Inc. Your job is to create an express-sequelize API for storing user data, their academic awards and their associated mentors.
 
+
+
 ## Specs
 
 ```
@@ -15,8 +17,25 @@ You are the CTO of ACME Education Inc. Your job is to create an express-sequeliz
 ### Models
 
 ```
-- User
-- Award
+- User 
+can have mentors who are other users
+
+users can belong to users AS mentors (many to one) /
+users can be mentors to users AS mentees (one to many) ???
+users as Mentors must have two or more awards
+user cannot be his/her own mentor
+
+
+- Award : 
+owned by users 
+
+advice:
+avoid hooks, dude says they're tricky
+
+
+
+
+
 ```
 
 ### Routes

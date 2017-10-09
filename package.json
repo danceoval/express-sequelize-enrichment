@@ -1,0 +1,29 @@
+{
+  "name": "express-sequelize-enrichment",
+  "version": "1.0.0",
+  "description": "## Goal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdnyc2017/express-sequelize-enrichment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdnyc2017/express-sequelize-enrichment/issues"
+  },
+  "homepage": "https://github.com/mdnyc2017/express-sequelize-enrichment#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "nunjucks": "^3.0.1",
+    "pg": "^7.3.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.13.5"
+  }
+}
